@@ -1,4 +1,6 @@
-@import './common';
-@import './reset';
-@import './container';
-@import './example';
+@import './base/common';
+@import './base/reset';
+@import './base/container';
+
+// components
+@import './components/header';
