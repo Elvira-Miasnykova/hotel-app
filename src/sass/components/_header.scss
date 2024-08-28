@@ -44,16 +44,12 @@
 .info-list {
   display: flex;
   gap: 30px;
-  //margin-left: 390px;
 }
 
 .info-button {
   display: inline-flex;
   align-items: center;
   position: relative;
-  background-color: transparent;
-  outline: none;
-  border: none;
   font-weight: 600;
   font-size: 18px;
   color: #ee685f;
@@ -66,6 +62,5 @@
     right: -1px;
     bottom: 15px;
     background: #ee685f;
-    //border-radius: 2px;
   }
 }
