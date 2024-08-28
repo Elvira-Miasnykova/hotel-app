@@ -43,12 +43,13 @@
 
 .info-list {
   display: flex;
+  align-items: center;
   gap: 30px;
 }
 
 .info-button {
-  display: inline-flex;
-  align-items: center;
+  //display: inline-flex;
+  //align-items: center;
   position: relative;
   font-weight: 600;
   font-size: 18px;
@@ -64,3 +65,17 @@
     background: #ee685f;
   }
 }
+
+.icon {
+  fill: #fff;
+  stroke: #ee685f;
+  //background-position: center;
+}
+
+// .use  {
+//   width: 100%;
+//   height: 100%;
+//   fill: #ee685f;
+//   //stroke: #262729;
+//   //background-position: center;
+// }
