@@ -1,7 +1,56 @@
+.special-offers{
+    margin-bottom: 100px;
+}
+
 .special-offers__title{
+    margin-bottom: 60px;
+    text-align: center;
     font-size: 40px;
+    color: #262729;
+}
+
+.special-offers__list{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.special-offers__item{
+    //margin: 10px 10px 19px;
 }
 
 .special-offers__card{
     width: 370px;
+}
+
+.special-offers__img{
+    max-width: 100%;
+    margin-bottom: 25px;
+}
+
+.special-offers__subtitle{
+    font-weight: 500;
+    font-size: 22px;
+    color: #262729;
+    letter-spacing: 0.001em;
+}
+
+.special-offers__desk{
+    font-size: 16px;
+    color: #858585;
+}
+
+.special-offers__date{
+    font-size: 18px;
+    color: #262729;
+}
+
+.special-offers__price{
+    font-size: 30px;
+    color: #2A90D9;
+}
+
+.special-offers__visit{
+    font-size: 18px;
+    color: #2A90D9;
 }
