@@ -11,16 +11,23 @@
 
 .special-offers__list{
     display: flex;
-    justify-content: center;
-    gap: 20px;
+    gap: 30px;
 }
 
 .special-offers__item{
-    //margin: 10px 10px 19px;
+    max-width: 370px;
+    border: 1px solid #E7E6EB;
+    border-radius: 5px;
+    padding: 10px 10px 19px;
 }
 
-.special-offers__card{
-    width: 370px;
+// .special-offers__card{
+//     min-width: 370px;
+// }
+
+.special-offers__wrapper{
+    display: flex;
+    justify-content: center;
 }
 
 .special-offers__img{
@@ -36,16 +43,20 @@
 }
 
 .special-offers__desk{
+    margin-bottom: 5px;
     font-size: 16px;
     color: #858585;
 }
 
 .special-offers__date{
+    margin-bottom: 15px;
     font-size: 18px;
     color: #262729;
 }
 
 .special-offers__price{
+    display: inline-block;
+    margin-bottom: 15px;
     font-size: 30px;
     color: #2A90D9;
 }
@@ -53,4 +64,44 @@
 .special-offers__visit{
     font-size: 18px;
     color: #2A90D9;
+}
+
+.special-offers__iconwrapper{
+    display: flex;
+    gap: 20px;
+}
+
+.special-offers__icon{
+    display: inline-flex;
+    align-items: baseline;
+    font-size: 16px;
+    letter-spacing: 0.001em;
+    
+}
+
+.special-offers__icon::before{
+    display: inline-block;
+    content: "";
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+    
+}
+
+.special-offers__icon.bed::before {
+    background-image: url("../images/svg/free-icon-font-bed-alt-7856997.svg");
+    background-size: contain;
+    background-position: center;
+}
+
+.special-offers__icon.visitor::before {
+    background-image: url("../images/svg/free-icon-font-user-3917559.svg");
+    background-size: contain;
+    background-position: center;
+}
+
+.special-offers__icon.area::before {
+    background-image: url("../images/svg/free-icon-font-arrow-up-right-and-arrow-down-left-from-center-8535611.svg");
+    background-size: contain;
+    background-position: center;
 }
