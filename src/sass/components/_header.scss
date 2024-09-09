@@ -37,8 +37,15 @@
 }
 
 .nav-text {
+  display: inline-block;
+  padding: 5px 0;
   font-size: 16px;
   color: #262729;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover {
+    color: #2a90d9;
+  }
 }
 
 .info-list {
@@ -54,6 +61,11 @@
   font-weight: 600;
   font-size: 18px;
   color: #ee685f;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover{
+    color: #2a90d9;
+  }
 
   &__underline::after {
     position: absolute;
@@ -64,13 +76,21 @@
     bottom: 15px;
     background: #ee685f;
   }
+
+  &__icon {
+    fill: #fff;
+    stroke: #ee685f;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
+  }
+
+  &__icon:hover {
+    stroke: #2a90d9;
+    
+  }
 }
 
-.icon {
-  fill: #fff;
-  stroke: #ee685f;
-  //background-position: center;
-}
+
 
 // .use  {
 //   width: 100%;
