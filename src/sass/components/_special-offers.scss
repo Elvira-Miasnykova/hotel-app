@@ -19,11 +19,18 @@
     border: 1px solid #E7E6EB;
     border-radius: 5px;
     padding: 10px 10px 19px;
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-// .special-offers__card{
-//     min-width: 370px;
-// }
+.special-offers__item:hover {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+        1px 4px 6px rgba(0, 0, 0, 0.16);
+    
+}
+
+.special-offers__card{
+    
+}
 
 .special-offers__wrapper{
     display: flex;
