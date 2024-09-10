@@ -1,0 +1,25 @@
+.menu-button{
+    //display: none;
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: transparent;
+    color: #333333;
+
+    @media screen and (max-width: 1199px){
+      display: block;
+    }
+  
+& .icon-cross {
+    display: none;
+}
+
+&.is-open .icon-cross{
+    display: block;
+}  
+
+&.is-open .icon-menu {
+    display: none;
+}
+
+}

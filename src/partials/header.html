@@ -1,14 +1,40 @@
 <header class="header">
-  <!-- logo -->
   <div class="container header-container">
-  <div class="header-wrapper">
+  <div class="mobile-menu-wrapper">
+
+    <!-- mobile-button -->
+    <button
+    type="button"
+    class="menu-button is-open"
+    aria-expanded="false"
+    aria-controls="menu-container"
+    data-menu-button
+  >
+    <svg
+      width="24"
+      height="24"
+      class="menu-button__icon--hover"
+      aria-label="switcher mobile menu"
+    >
+      <use
+        class="icon-menu"
+        href="./images/svg/symbol-def4-optimized.svg#icon-menu-hamburger"
+      ></use>
+      <use
+        class="icon-cross"
+        href="./images/svg/symbol-def4-optimized.svg#icon-cross-svgrepo-com-1"
+      ></use>
+    </svg>
+  </button>
+
+    <!-- logo -->
     <a class="header-logo">
       <span lang="en">Your</span
       ><span lang="en" class="header__logo--color">.logo</span>
     </a>
-
+  </div>
     <!-- navigation list -->
-    <div>
+    <div class="navigation-wrapper is-open" data-menu>
       <nav class="main-nav">
         <ul class="main-nav-list">
           <li>
@@ -25,12 +51,12 @@
           </li>
         </ul>
       </nav>
-    </div>
-  </div>
+    
+  <!-- </div> -->
   
 
     <!-- additional info list -->
-    <div>
+    <div class="info-wrapper">
       <ul class="info-list">
         <li>
           <a class="info-button info-button__underline" data-underline="...">$</a>
@@ -38,15 +64,19 @@
         <li>
           <a class="info-button info-button__underline" data-underline=".....">EN</a>
         </li>
-        <li>
+      </ul>
+    </div>
+  </div>
+        <div>
           <a class="info-button">
             <svg class="info-button__icon" width="32px" height="32px">
               <use  href="./images/svg/symbol-defs.svg#icon-profile-user-account-svgrepo-com-3"></use>
             </svg>
           </a>
-        </li>
-      </ul>
-    </div>
+        </div>
+      
+    
+    
   </div>
 </div>
 </header>
