@@ -8,7 +8,7 @@
 
 .header-container {
   padding-top: 16px;
-  padding-bottom: 16px;
+  //padding-bottom: 16px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -42,13 +42,13 @@
   color: #ee685f;
 }
 
-.navigation-wrapper {
+.navigation-container {
   @media screen and (max-width: 1199px) {
     display: none;
 
     position: absolute;
     top: 100%;
-    left: 0px;
+    left: 0;
     width: 100%;
     z-index: 999;
   }
@@ -56,6 +56,13 @@
   &.is-open {
     display: block;
   }
+}
+
+.navigation-wrapper{
+  width: 100%;
+  height: calc(100vh - 30px);
+  padding: 48px 20px 32px;
+  background: #fff;
 }
 
 .main-nav-list {
