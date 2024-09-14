@@ -1,0 +1,114 @@
+.special-offers{
+    margin-bottom: 100px;
+}
+
+.special-offers__title{
+    margin-bottom: 60px;
+    text-align: center;
+    font-size: 40px;
+    color: #262729;
+}
+
+.special-offers__list{
+    display: flex;
+    gap: 30px;
+}
+
+.special-offers__item{
+    max-width: 370px;
+    border: 1px solid #E7E6EB;
+    border-radius: 5px;
+    padding: 10px 10px 19px;
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.special-offers__item:hover {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+        1px 4px 6px rgba(0, 0, 0, 0.16);
+    
+}
+
+// .special-offers__card{
+    
+// }
+
+.special-offers__wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.special-offers__img{
+    max-width: 100%;
+    margin-bottom: 25px;
+}
+
+.special-offers__subtitle{
+    font-weight: 500;
+    font-size: 22px;
+    color: #262729;
+    letter-spacing: 0.001em;
+}
+
+.special-offers__desk{
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: #858585;
+}
+
+.special-offers__date{
+    margin-bottom: 15px;
+    font-size: 18px;
+    color: #262729;
+}
+
+.special-offers__price{
+    display: inline-block;
+    margin-bottom: 15px;
+    font-size: 30px;
+    color: #2A90D9;
+}
+
+.special-offers__visit{
+    font-size: 18px;
+    color: #2A90D9;
+}
+
+.special-offers__iconwrapper{
+    display: flex;
+    gap: 20px;
+}
+
+.special-offers__icon{
+    display: inline-flex;
+    align-items: baseline;
+    font-size: 16px;
+    letter-spacing: 0.001em;
+    
+}
+
+.special-offers__icon::before{
+    display: inline-block;
+    content: "";
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+    
+}
+
+.special-offers__icon.bed::before {
+    background-image: url("../images/svg/free-icon-font-bed-alt-7856997.svg");
+    background-size: contain;
+    background-position: center;
+}
+
+.special-offers__icon.visitor::before {
+    background-image: url("../images/svg/free-icon-font-user-3917559.svg");
+    background-size: contain;
+    background-position: center;
+}
+
+.special-offers__icon.area::before {
+    background-image: url("../images/svg/free-icon-font-arrow-up-right-and-arrow-down-left-from-center-8535611.svg");
+    background-size: contain;
+    background-position: center;
+}

@@ -1,3 +1,11 @@
-@import './common';
-@import './example';
+@import './base/common';
+@import './base/reset';
+@import './base/container';
+
+// components
+@import './components/mobile-menu';
+@import './components/header';
+@import './components/hero';
 @import  './component/choose.scss';
+@import './components/special-offers';
+
