@@ -82,7 +82,14 @@
 .navigation-wrapper-inner {
   @media screen and (min-width: 1280px) {
     display: flex;
-    gap: 390px;
+    //gap: 390px;
+  }
+  
+}
+
+.main-nav{
+  @media screen and (min-width: 1280px) {
+    margin-right: 370px;
   }
   
 }
