@@ -5,4 +5,10 @@ body {
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 0.04em;
     
+
+    &.is-open {
+      overflow-y: hidden;
+    }
   }
+
+
