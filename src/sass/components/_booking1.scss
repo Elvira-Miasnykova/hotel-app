@@ -1,0 +1,449 @@
+
+.container-booking {
+
+    text-align: center;
+    
+    
+    @media screen and (min-width: 348px) {
+        padding-top: 60px;
+            padding-bottom: 50px;
+    }
+
+    @media screen and (min-width: 1280px) {
+        padding-top: 85px;
+            padding-bottom: 97px;
+    }
+}
+
+
+
+
+
+
+.text-booking{
+   
+    
+
+    @media screen and (min-width: 348px) {
+        font-weight: 700px;
+            line-height: 1.2;
+            font-size: 32px;
+            color: #262729;
+            align-items: center;
+            text-align: center;
+            margin-bottom: 30px;
+    }
+
+    @media screen and (min-width: 1280px) {
+        font-weight: 700px;
+            line-height: 1.2;
+            font-size: 48px;
+            color: #262729;
+            align-items: center;
+            text-align: center;
+            margin-bottom: 80px;
+    }}
+
+
+.container-booking-number {
+  display: flex;
+  flex-wrap: wrap;
+ justify-content: center;
+ text-align: center;
+ align-items: center;
+  gap: 80px;
+            
+            
+           
+            @media screen and (min-width: 348px) {
+                margin-bottom: 30px;
+            }
+    
+            @media screen and (min-width: 1280px) {
+                margin-bottom: 80px;
+            }
+        }
+
+
+
+ .container-booking-position {
+        
+ background-color: #FFFFFF;
+    border-radius: 50%;
+    border: 1px solid #2A90D9;
+        
+    
+        display: flex;
+            justify-content: center;
+            align-items: center;
+        
+    @media screen and (min-width: 348px) {
+        width: 40px;
+            height: 40px;
+    }
+        
+    @media screen and (min-width: 1280px) {
+        width: 60px;
+            height: 60px;
+    }
+                   }
+
+
+
+  .booking-position-number {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ @media screen and (min-width: 348px) {}
+  @media screen and (min-width: 1280px) {}
+          }
+
+
+.text-booking-info {
+ 
+
+ @media screen and (min-width: 348px) {
+    font-weight: 600px;
+        line-height: 1.2;
+        font-size: 32px;
+        color: #262729;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 20px;
+        margin-top: 20px;
+ }
+    
+@media screen and (min-width: 1280px) {
+    font-weight: 600px;
+        line-height: 1.2;
+        font-size: 40px;
+        color: #262729;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 25px;
+        margin-top: 30px;
+}
+          }
+
+                 
+.booking-img {
+                  
+
+  
+  @media screen and (min-width: 348px) {
+    width: 302px;
+        height: 189px;
+        margin: auto;
+        margin-bottom: 25px;
+
+       
+
+  }
+   @media screen and (min-width: 1280px) {
+    width: 370px;
+        height: 355px;
+        margin: 0px;
+            margin-bottom: 0px;
+   }
+                  }
+
+
+   .container-about-price{
+                
+   @media screen and (min-width: 348px) {
+    display: block;
+    margin-bottom: 25px;
+    text-align: center;
+   }
+                
+  @media screen and (min-width: 1280px) {
+    display: flex;
+        justify-content: center;
+        margin-bottom: 25px;
+  }
+   }
+
+
+
+.container-div{
+
+        border: 1px solid #E7E6EB;
+        border-radius: 10px;
+     
+
+    
+@media screen and (min-width: 348px) {
+  
+        text-align: center;
+        
+        width: 328px;
+        height: auto;
+        margin: auto;
+}
+    
+ @media screen and (min-width: 1280px) {
+    justify-content: center;
+        text-align: center;
+        align-items: center;
+        width: 830px;
+        height: 564px;
+        margin: auto;
+ }
+          }
+
+                  .container-div:hover,
+                  .container-div:focus {
+                    border-color: #2A90D9;
+
+        
+                  }
+
+
+.booking-list-about {
+ display: flex;
+                           
+  justify-content: space-between;
+text-align: center;
+align-items: center;
+margin-bottom: 21px;
+
+                          
+@media screen and (min-width: 348px) {
+width: 302px;
+    height: auto;
+}
+            
+ @media screen and (min-width: 1280px) {
+    width: 349px;
+        height: 26px;
+ }
+                         }
+
+
+ .container-booking-about{
+   
+  @media screen and (min-width: 348px) {
+    width: 324px;
+        height: auto;
+        text-align: center;
+        
+  }
+ @media screen and (min-width: 1280px) {
+    width: 351px;
+        height: 355px;
+        margin-left: 16px;
+ }
+ }
+  .booking-item-price {
+      text-align: start;
+      @media screen and (min-width: 348px) {}
+
+      @media screen and (min-width: 1280px) {}
+  }
+
+
+        .booking-item-price {
+          
+            text-align: start;
+            @media screen and (min-width: 348px) {}
+    
+            @media screen and (min-width: 1280px) {}
+        }
+ .text-about {
+
+     @media screen and (min-width: 348px) {
+        font-weight: 500px;
+            line-height: 1.2;
+            font-size: 16px;
+            color: #262729;
+            text-align: center;
+        
+            margin-bottom: 11px;
+     }
+
+     @media screen and (min-width: 1280px) {
+        font-weight: 500px;
+            line-height: 1.2;
+            font-size: 20px;
+            color: #262729;
+            text-align: start;
+        
+            margin-bottom: 11px;
+     }
+ }
+  .bookings-item-about{
+    display: flex;
+ 
+
+      @media screen and (min-width: 348px) {}
+
+      @media screen and (min-width: 1280px) {}
+  }
+
+   .booking-item-title{
+       font-weight: 400px;
+       line-height: 1.5;
+       font-size: 16px;
+       color: #858585;
+
+    //    margin-bottom: 11px;
+
+       @media screen and (min-width: 348px) {
+        font-weight: 400px;
+            line-height: 1.2;
+            font-size: 14px;
+            color: #858585;
+       }
+
+       @media screen and (min-width: 1280px) {
+        font-weight: 400px;
+            line-height: 1.5;
+            font-size: 16px;
+            color: #858585;
+       }
+   }
+
+   .booking-svg {
+    
+       color: #2A90D9;
+
+       margin-bottom: 11px;
+
+       @media screen and (min-width: 348px) {}
+
+       @media screen and (min-width: 1280px) {}
+   }
+
+   .title-list {
+font-weight: 600px;
+    line-height: 1.2;
+    font-size: 19px;
+    color: #262729;
+       
+
+       margin-bottom: 10px;
+
+       @media screen and (min-width: 348px) {
+        font-weight: 600px;
+            line-height: 1.2;
+            font-size: 14px;
+            color: #262729;
+        
+        
+            margin-bottom: 10px;
+       }
+
+       @media screen and (min-width: 1280px) {
+        font-weight: 600px;
+            line-height: 1.2;
+            font-size: 19px;
+            color: #262729;
+        
+        
+            margin-bottom: 10px;
+       }
+   }
+
+                 .title-information {
+                   
+        
+                     @media screen and (min-width: 348px) {
+                        font-weight: 400px;
+                            line-height: 1.2;
+                            font-size: 14px;
+                            color: #262729;
+                        
+                        
+                            margin-bottom: 10px;
+                     }
+        
+                     @media screen and (min-width: 1280px) {
+                        font-weight: 400px;
+                            line-height: 1.4;
+                            font-size: 16px;
+                            color: #262729;
+                        
+                        
+                            margin-bottom: 10px;
+                     }
+                 }
+
+                                   .bookingstep1-list-price {
+                                    
+                                       
+                display: flex;
+                                       
+                
+                                       @media screen and (min-width: 348px) {
+                                        width: 324px;
+                                        justify-content: center;
+                                            text-align: center;
+                                            align-items: center;
+
+                                       }
+                
+                                       @media screen and (min-width: 1280px) {
+                                        width: 351px;
+                                       }
+                                   }
+                                   .booking-item-price {
+                
+                                    // margin-left: 10px;
+                
+                
+                                       @media screen and (min-width: 348px) {}
+                
+                                       @media screen and (min-width: 1280px) {}
+                                   }
+
+  .booking-item-price:not(:last-child) {
+ margin-right: 10px;
+   }
+        .color-blue {
+            color: #2A90D9;
+        }
+
+                 .color-red {
+                     color: #EE685F;
+                 }
+ .booking-button-price {
+    background-color: #EE685F;
+  
+        border-radius: 10px;
+        color: #FFFFFF;
+        
+            border-color: #EE685F;
+            border-radius: 10px;
+
+            @media screen and (min-width: 348px) {
+                width: 215px;
+                    height: 40px;
+                    font-weight: 600px;
+                        line-height: 1.2;
+                        font-size: 14px;
+                        margin-bottom: 20px;
+            }
+            
+                @media screen and (min-width: 1280px) {
+                    width: 275px;
+                        height: 50px;
+                        font-weight: 600px;
+                            line-height: 1.2;
+                            font-size: 16px;
+                            margin-bottom: 0px;
+                }
+
+ }
+ .booking-button-price:hover,
+ .booking-button-price:focus {
+     background-color: #fff;
+    color: #EE685F;
+
+ }
+
+ .background-color {
+     background-color: #2A90D9;
+     color: #fff;
+
+ }
+        

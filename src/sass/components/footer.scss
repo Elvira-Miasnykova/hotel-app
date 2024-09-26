@@ -264,5 +264,34 @@ width: 25px;
      margin: auto;
  }
 
+ .text {
+    font-weight: 700px;
+    line-height: 1.2;
+    font-size: 48px;
+    color: #262729;
+    align-items: center;
+    // text-align: center;
+
+    @media screen and (min-width: 348px) {
+        
+
+    }
+
+    @media screen and (min-width: 1280px) {
+       
+    }}
+
+        .text {
+            font-weight: 700px;
+            line-height: 1.2;
+            font-size: 48px;
+            color: #262729;
+            align-items: center;
+            // text-align: center;
+    
+            @media screen and (min-width: 348px) {}
+    
+            @media screen and (min-width: 1280px) {}
+        }
 
 
