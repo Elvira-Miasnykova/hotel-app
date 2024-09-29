@@ -45,25 +45,65 @@
     <div class="last-minute__buttons-group" role="group">
       <a href="" class="last-minute__link">Show on map</a>
       <div class="last-minute__buttons-innergroup">
-      <button class="last-minute__button">
-        <svg class="icon-filter" width="24" height="24">
-          <use href="./images/svg/filter.svg#filter"></use>
-        </svg>
-        Filter</button>
-      <label for="last-minute__select">Sort by</label>
+        <button class="last-minute__button">
+          <svg class="icon-filter" width="24" height="24">
+            <use href="./images/svg/filter.svg#filter"></use>
+          </svg>
+          Filter
+        </button>
+        <label for="last-minute__select">Sort by</label>
 
-      <select id="last-minute__select">
-        <option value="">Relevance</option>
-        <option value="newest">Newest</option>
-        <option value="rating">Rating</option>
-        <option value="discount">Discount</option>
-        <option value="low-to-high">Low to High</option>
-        <option value="high-to-low">High to Low</option>
-      </select>
+        <select id="last-minute__select" class="last-minute__select">
+          <option value="">Relevance</option>
+          <option value="newest">Newest</option>
+          <option value="rating">Rating</option>
+          <option value="discount">Discount</option>
+          <option value="low-to-high">Low to High</option>
+          <option value="high-to-low">High to Low</option>
+          <!-- <span class="focus"></span> -->
+        </select>
+
+        <div class="last-minute__select-wrapper">
+          <span class="last-minute__select-text">Sort by</span>
+          <button
+            class="last-minute__select-button"
+            role="combobox"
+            aria-label="select button"
+            aria-haspopup="listbox"
+            aria-expanded="false"
+            aria-controls="select-dropdown"
+          >
+            <span class="selected-value">Relevance</span>
+            <span class="arrow"></span>
+          </button>
+          <ul class="select-dropdown" role="listbox" id="select-dropdown">
+            <li role="option">
+              <input type="radio" id="newest" name="variant" />
+              <label for="newest">Newest</label>
+            </li>
+            <li role="option">
+              <input type="radio" id="rating" name="variant" />
+              <label for="rating">Rating</label>
+            </li>
+            <li role="option">
+              <input type="radio" id="discount" name="variant" />
+              <label for="discount">Discount</label>
+            </li>
+            <li role="option">
+              <input type="radio" id="low-to-high" name="variant" />
+              <label for="low-to-high">Low to High</label>
+            </li>
+            <li role="option">
+              <input type="radio" id="high-to-low" name="variant" />
+              <label for="high-to-low">High to low</label>
+            </li>
+            <!-- ... -->
+          </ul>
+        </div>
+      </div>
     </div>
-    </div>
-  <!-- </div> -->
-  
+    <!-- </div> -->
+
     <ul class="special-offers__list last-minute__list">
       <li class="special-offers__item">
         <article class="special-offers__card">
