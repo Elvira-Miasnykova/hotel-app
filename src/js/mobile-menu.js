@@ -1,6 +1,7 @@
 const buttonMenuRef = document.querySelector('[data-menu-button]');
 const menuRef = document.querySelector('[data-menu]');
 const bodyRef = document.querySelector('[data-noScroll]');
+console.log(buttonMenuRef);
 
 buttonMenuRef.addEventListener('click', () => {
   const expanded =
