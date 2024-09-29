@@ -1,0 +1,2 @@
+var buttonMenuRef=document.querySelector("[data-menu-button]"),menuRef=document.querySelector("[data-menu]"),bodyRef=document.querySelector("[data-noScroll]");console.log(buttonMenuRef),buttonMenuRef.addEventListener("click",(function(){var e="true"===buttonMenuRef.getAttribute("aria-expanded")||!1;buttonMenuRef.classList.toggle("is-open"),buttonMenuRef.setAttribute("aria-expanded",!e),menuRef.classList.toggle("is-open"),bodyRef.classList.toggle("is-open")}));
+//# sourceMappingURL=last-minute-page.de0baa8e.js.map
