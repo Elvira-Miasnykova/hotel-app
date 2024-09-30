@@ -1,5 +1,8 @@
 .last-minute {
   &__section {
+    padding-top: 32px;
+    padding-bottom: 80px;
+
     @media screen and (min-width: 1280px) {
       padding-top: 80px;
       padding-bottom: 100px;
@@ -7,8 +10,9 @@
   }
 
   &__title {
-    margin-bottom: 64px;
-    font-size: 28px;
+    margin-bottom: 48px;
+    font-weight: 700;
+    font-size: 32px;
     text-align: center;
 
     color: #262729;
@@ -16,7 +20,6 @@
     @media screen and (min-width: 1280px) {
       margin-bottom: 60px;
       font-size: 48px;
-      font-weight: 700;
     }
   }
 
@@ -27,10 +30,12 @@
   }
 
   &__buttons-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 32px;
+
     @media screen and (min-width: 1280px) {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
       margin-bottom: 30px;
     }
   }
@@ -44,9 +49,8 @@
   }
 
   &__link {
+    padding: 15px 23px;
     display: inline-block;
-    width: 168px;
-    padding: 15px 25px;
     font-weight: 500;
     font-size: 16px;
     letter-spacing: 0.001em;
@@ -57,6 +61,10 @@
 
     transition: color 0.25s cubic-bezier(0.4, 0, 0.2, 1),
       background-color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+
+    @media screen and (min-width: 1280px) {
+      padding: 15px 27px;
+    }
   }
 
   &__link:hover,
@@ -68,65 +76,67 @@
   &__button {
     display: inline-flex;
     align-items: center;
-    padding: 0;
-    border: none;
-    margin-right: 30px;
-    font-size: 18px;
+    padding: 12px 37px 12px 17px;
+
+    font-size: 16px;
+    font-weight: 600;
     color: #ee685f;
-    background-color: transparent;
+    background-color: #fff;
+    border: 1px solid #ee685f;
+    border-radius: 10px;
 
     transition: color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
-    
+
+    @media screen and (min-width: 1280px) {
+      align-items: center;
+      padding: 0;
+      border: none;
+      margin-right: 30px;
+      font-size: 18px;
+
+      background-color: transparent;
+    }
   }
 
   &__button:hover,
   &__button:focus {
-    color: #2A90D9;
+    color: #fff;
+    background-color: #ee685f;
+
+    @media screen and (min-width: 1280px) {
+      color: #2a90d9;
+    }
   }
 }
 
 .icon-filter {
-  margin-right: 8px;
+  margin-right: 37px;
   fill: currentColor;
-  
-}
 
-.last-minute__select {
-  position: relative;
-  display: block;
-  width: 118px;
-
-  font-size: 18px;
-  border: none;
-  color: #ee685f;
-  background-color: transparent;
-  outline: none;
-
-  transition: color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
-
-  &:hover,
-  &:focus {
-    color: #2A90D9;
+  @media screen and (min-width: 1280px) {
+    margin-right: 8px;
   }
-
 }
 
 .last-minute__select-wrapper {
+  @media screen and (max-width: 1279px) {
+    display: none;
+  }
+
   position: relative;
 
   display: flex;
   justify-content: space-between;
   align-items: center;
   //width: 118px;
-  max-width: 100%;
-  
+  //max-width: 100%;
 }
 
 .last-minute__select-button {
   display: flex;
   align-items: center;
 
-  width: 118px;
+  min-width: 118px;
   gap: 8px;
   font-size: 18px;
   cursor: pointer;
@@ -139,13 +149,8 @@
 
   &:hover,
   &:focus {
-    color: #2A90D9;
+    color: #2a90d9;
   }
-
-}
-
-.last-minute__select-wrapper .selected-value {
-  //text-align: left;
 }
 
 .last-minute__select-wrapper .arrow {
@@ -155,10 +160,14 @@
   transition: transform ease-in-out 0.3s;
 }
 
+.last-minute__select-wrapper:hover .arrow,
+.last-minute__select-wrapper:focus .arrow {
+  border-top: 6px solid #2a90d9;
+}
+
 .last-minute__select-wrapper.active .select-dropdown {
   opacity: 1;
   visibility: visible;
-  transform: scaleY(1);
 }
 
 .select-dropdown {
@@ -174,7 +183,6 @@
   overflow-y: auto;
   transition: 0.5s ease;
 
-  transform: scaleY(0);
   opacity: 0;
   visibility: hidden;
 }
@@ -220,17 +228,17 @@
   background-color: #dfdfdf;
 }
 
-.select-dropdown input[type="radio"] {
+.select-dropdown input[type='radio'] {
   position: absolute;
   left: 0;
   opacity: 0;
 }
 
-
-
 .order-details--last-minute {
+  position: static;
+  margin-bottom: 24px;
+
   @media screen and (min-width: 1280px) {
-    position: static;
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 40px;
