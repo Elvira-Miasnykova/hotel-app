@@ -1,0 +1,40 @@
+.reviews {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  
+    @media screen and (min-width: 1280px) {
+      padding-top: 70px;
+      padding-bottom: 70px;
+    }
+  
+  
+  &__title {
+    margin-bottom: 64px;
+    font-size: 28px;
+    text-align: center;
+  
+    color: #262729;
+  
+    @media screen and (min-width: 1280px) {
+      margin-bottom: 60px;
+      font-size: 40px;
+    }
+  }
+
+  &__list {
+    @media screen and (min-width: 1280px) {
+      display: flex;
+      gap: 30px;
+      margin-bottom: 50px;
+    }
+  }
+
+  &__item {
+    max-width: 317px;
+    
+    @media screen and (min-width: 1280px) {
+      max-width: 317px;
+    
+    }
+  }
+}
