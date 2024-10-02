@@ -149,23 +149,15 @@
   background-color: transparent;
 
   transition: color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
-
-  &:hover,
-  &:focus {
-    color: #2a90d9;
-  }
+ 
 }
 
 .last-minute__select-wrapper .arrow {
   border-left: 5px solid transparent;
   border-right: 5px solid transparent;
   border-top: 6px solid #ee685f;
-  transition: transform ease-in-out 0.3s;
-}
-
-.last-minute__select-wrapper:hover .arrow,
-.last-minute__select-wrapper:focus .arrow {
-  border-top: 6px solid #2a90d9;
+  cursor: pointer;
+  transition: border-top ease-in-out 0.3s;
 }
 
 .last-minute__select-wrapper.active .select-dropdown {
