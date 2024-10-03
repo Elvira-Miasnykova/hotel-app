@@ -1,0 +1,82 @@
+.reviews__container {
+    position: relative;
+}
+
+.slick-list {
+@media screen and (min-width: 1280px) {
+    max-width: 1011px;
+    margin-left: auto;
+        margin-right: auto;
+}
+}
+
+.slick-cloned {
+    @media screen and (min-width: 1280px) {
+    //margin-right: 30px;
+    }
+}
+
+.slick-dots {
+    display: flex;
+    gap: 10px;
+    position: absolute;
+    left: 50%;
+    top: 105%;
+    transform: translate(-50%);
+}
+
+.slick-dots li {
+    
+}
+
+.slick-dots li button {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    font-size: 0;
+    background-color: #858585;
+}
+
+.slick-slider .slick-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    width: 50px;
+    height: 50px;
+    z-index: 10;
+    font-size: 0;
+    border-color: transparent;
+    border-radius: 10px;
+    background-color: #EE685F;
+}
+
+.slick-arrow.slick-prev {
+    left: 0;
+}
+
+.slick-arrow.slick-prev::after {
+    content: "<";
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    
+    width: 25px;
+    height: 25px;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+.slick-arrow.slick-next {
+    right: 0;
+}
+
+.slick-arrow.slick-next::after {
+    content: ">";
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    font-size: 24px;
+    color: #FFFFFF;
+}
