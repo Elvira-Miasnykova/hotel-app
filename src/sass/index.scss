@@ -2,6 +2,9 @@
 @import './base/reset';
 @import './base/container';
 
+//utils
+@import './utils/slider';
+
 // components
 @import './components/mobile-menu';
 @import './components/header';
