@@ -17,24 +17,31 @@
 }
 
 .slick-dots {
-    display: flex;
-    gap: 10px;
-    position: absolute;
-    left: 50%;
-    top: 105%;
-    transform: translate(-50%);
-}
-
-.slick-dots li {
+    display: none;
+    
+    @media screen and (min-width: 1280px) {
+        display: flex;
+        gap: 10px;
+        position: absolute;
+        left: 50%;
+        top: 105%;
+        transform: translate(-50%);   
+    }
     
 }
 
 .slick-dots li button {
-    width: 5px;
-    height: 5px;
+    padding: 0;
+    border: none;
+    width: 8px;
+    height: 8px;
     border-radius: 50%;
     font-size: 0;
     background-color: #858585;
+}
+
+.slick-dots .slick-active button {
+    background-color: black;
 }
 
 .slick-slider .slick-arrow {
